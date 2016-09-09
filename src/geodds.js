@@ -71,8 +71,3 @@ Polygon.prototype.isInside = function(point) {
 
 	return oddNodes;
 }
-
-module.exports = {
-	Point: Point,
-	Polygon: Polygon
-};
